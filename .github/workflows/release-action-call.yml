@@ -13,7 +13,7 @@ jobs:
       #You can specify the solution name here
       solution_name: ALMLab
       #Update your values here
-      BUILD_ENVIRONMENT_URL: https://org1fc672a4.crm12.dynamics.com
+      BUILD_ENVIRONMENT_URL: https://orgcbd3a11c.crm12.dynamics.com
       PRODUCTION_ENVIRONMENT_URL: https://lerevitpocproject.crm12.dynamics.com
       CLIENT_ID: 496cff1b-cd0a-4046-8c6d-b7672b05587c
       TENANT_ID: 8a65bfba-9c1f-4702-9474-d85b2f5eb583    
