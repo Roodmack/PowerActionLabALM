@@ -8,7 +8,7 @@ on:
 
 jobs:
   Release-solution-ALMLab:
-    uses: ./.github/workflows/release-solution-with-inputs.yml
+    uses: Roodmack/PowerActionLabALM/.github/workflows/release-solution-with-inputs.yml@main
     with:
       #You can specify the solution name here
       solution_name: ALMLab
