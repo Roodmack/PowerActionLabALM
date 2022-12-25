@@ -11,7 +11,7 @@ jobs:
     uses: Roodmack/PowerActionLabALM/.github/workflows/release-solution-with-inputs.yml@main
     with:
       #You can specify the solution name here
-      solution_name: ALMLab_managed.zip
+      solution_name: ALMLab_managed
       #Update your values here
       BUILD_ENVIRONMENT_URL: https://orgcbd3a11c.crm12.dynamics.com
       PRODUCTION_ENVIRONMENT_URL: https://lerevitpocproject.crm12.dynamics.com
