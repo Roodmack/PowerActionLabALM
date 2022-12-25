@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>user9_heydevops_56e53</Name>
+  <AppVersion>2022-12-25T00:42:48Z</AppVersion>
+  <Status>Ready</Status>
+  <CreatedByClientVersion>3.22122.15.0</CreatedByClientVersion>
+  <MinClientVersion>3.22122.15.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"1229","primaryDeviceHeight":"768","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.22122.15","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false","sienaVersion":"20221225T003440Z-3.22122.15.0"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>rgba(255, 255, 255, 1)</BackgroundColor>
+  <DisplayName>hey Devops</DisplayName>
+  <Description>Azure devops Application</Description>
+  <CommitMessage xsi:nil="true"></CommitMessage>
+  <Publisher xsi:nil="true"></Publisher>
+  <AuthorizationReferences>[]</AuthorizationReferences>
+  <ConnectionReferences>{"500c30a7-4b5e-4243-be8f-e0a3b4c8fe9e":{"id":"/providers/microsoft.powerapps/apis/shared_logicflows","displayName":"Logic flows","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1534/1.0.1534.2605/logicflows/icon.png","dataSources":["SayHello"],"dependencies":[],"dependents":[],"parameterHints":{"workflowName":{"value":"3ec47163-6fc3-486e-9bf9-fef89d04032d"},"workflowEntityId":{"value":"77fa538e-ec83-ed11-81ad-000d3a959fcc"}},"parameterHintsV2":{"workflowName":{"value":"3ec47163-6fc3-486e-9bf9-fef89d04032d"},"workflowEntityId":{"value":"77fa538e-ec83-ed11-81ad-000d3a959fcc"}},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["Run"]}}</ConnectionReferences>
+  <DatabaseReferences>{}</DatabaseReferences>
+  <AppComponents>[]</AppComponents>
+  <AppComponentDependencies>[]</AppComponentDependencies>
+  <CanConsumeAppPass>1</CanConsumeAppPass>
+  <CanvasAppType>0</CanvasAppType>
+  <BypassConsent>0</BypassConsent>
+  <AdminControlBypassConsent>0</AdminControlBypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[]}</CdsDependencies>
+  <IsCustomizable>1</IsCustomizable>
+  <BackgroundImageUri>/CanvasApps/user9_heydevops_56e53_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/user9_heydevops_56e53_DocumentUri.msapp</DocumentUri>
+</CanvasApp>

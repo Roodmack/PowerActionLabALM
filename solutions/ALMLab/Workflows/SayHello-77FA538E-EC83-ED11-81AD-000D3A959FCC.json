@@ -1,0 +1,66 @@
+{
+  "properties": {
+    "connectionReferences": {},
+    "definition": {
+      "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+      "contentVersion": "1.0.0.0",
+      "parameters": {
+        "$authentication": {
+          "defaultValue": {},
+          "type": "SecureObject"
+        },
+        "Sharepoint Site (user9_SharepointSite)": {
+          "defaultValue": "https://lerevit.sharepoint.com/sites/Constellium",
+          "type": "String",
+          "metadata": {
+            "schemaName": "user9_SharepointSite"
+          }
+        }
+      },
+      "triggers": {
+        "manual": {
+          "metadata": {
+            "operationMetadataId": "2af2a167-7704-4eb9-af99-02f0cd72d33d"
+          },
+          "type": "Request",
+          "kind": "PowerApp",
+          "inputs": {
+            "schema": {
+              "type": "object",
+              "properties": {},
+              "required": []
+            }
+          }
+        }
+      },
+      "actions": {
+        "Respond_to_a_PowerApp_or_flow": {
+          "runAfter": {},
+          "metadata": {
+            "operationMetadataId": "662da1fc-d2f7-46cd-917a-9bf56536a555"
+          },
+          "type": "Response",
+          "kind": "PowerApp",
+          "inputs": {
+            "statusCode": 200,
+            "body": {
+              "msg": "Hello From Power Automate,\n\nHere's the Sharepoint Site : \n@{parameters('Sharepoint Site (user9_SharepointSite)')}"
+            },
+            "schema": {
+              "type": "object",
+              "properties": {
+                "msg": {
+                  "title": "MSG",
+                  "x-ms-dynamically-added": true,
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "templateName": null
+  },
+  "schemaVersion": "1.0.0.0"
+}

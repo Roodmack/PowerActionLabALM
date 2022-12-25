@@ -1,0 +1,11 @@
+<environmentvariabledefinition schemaname="user9_ApproverValidation">
+  <defaultvalue>Approver On deployment 25 Dec</defaultvalue>
+  <displayname default="Approver Validation">
+    <label description="Approver Validation" languagecode="1033" />
+  </displayname>
+  <introducedversion>1.2022.12.17</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <secretstore>0</secretstore>
+  <type>100000000</type>
+</environmentvariabledefinition>
